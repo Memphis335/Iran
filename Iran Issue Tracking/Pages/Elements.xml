@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\NewReport.aspx" Url="Pages/NewReport.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ChangeRequest.aspx" Url="Pages/ChangeRequest.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AdhocReport.aspx" Url="Pages/AdhocReport.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

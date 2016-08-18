@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="handsontable\handsontable.min.css" Target="Content\handsontable\" Type="ElementFile" />
+    <ProjectItemFile Source="handsontable\handsontable.full.min.css" Target="Content\handsontable\" Type="ElementFile" />
+    <ProjectItemFile Source="handsontable\handsontable.full.css" Target="Content\handsontable\" Type="ElementFile" />
+    <ProjectItemFile Source="handsontable\handsontable.css" Target="Content\handsontable\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="demo.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="material-kit.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit.scss" Target="Content\sass\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_alerts.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_buttons.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_cards.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_carousel.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_checkboxes.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_colors.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_core.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_dialogs.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_dividers.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_dropdown.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_example-pages.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_footers.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_form.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_images.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_import-bs-less.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_import-bs-sass.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_inputs-size.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_inputs.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_labels.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_lists.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_mixins.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_navbar.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_pagination.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_panels.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_pills.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_popups.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_progress.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_radios.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_ripples.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_sections.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_shadows.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_tabs.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_togglebutton.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_typography.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_variables.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_variables_bootstrap.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\_welljumbo.scss" Target="Content\sass\material-kit\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\plugins\_plugin-datepicker.scss" Target="Content\sass\material-kit\plugins\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\plugins\_plugin-dropdownjs.scss" Target="Content\sass\material-kit\plugins\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\plugins\_plugin-nouislider.scss" Target="Content\sass\material-kit\plugins\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\plugins\_plugin-selectize.scss" Target="Content\sass\material-kit\plugins\" Type="ElementFile" />
+    <ProjectItemFile Source="sass\material-kit\plugins\_plugin-snackbarjs.scss" Target="Content\sass\material-kit\plugins\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

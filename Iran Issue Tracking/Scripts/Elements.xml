@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.slim.min.map" Url="Scripts/jquery-3.1.0.slim.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.slim.min.js" Url="Scripts/jquery-3.1.0.slim.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.slim.js" Url="Scripts/jquery-3.1.0.slim.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.min.map" Url="Scripts/jquery-3.1.0.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.min.js" Url="Scripts/jquery-3.1.0.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.js" Url="Scripts/jquery-3.1.0.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.0.intellisense.js" Url="Scripts/jquery-3.1.0.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modernizr-2.8.3.js" Url="Scripts/modernizr-2.8.3.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\handsontable\handsontable.min.js" Url="Scripts/handsontable/handsontable.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\handsontable\handsontable.js" Url="Scripts/handsontable/handsontable.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\handsontable\handsontable.full.min.js" Url="Scripts/handsontable/handsontable.full.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\handsontable\handsontable.full.js" Url="Scripts/handsontable/handsontable.full.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap-datepicker.js" Url="Scripts/bootstrap-datepicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.min.js" Url="Scripts/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\material.min.js" Url="Scripts/material.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\material-kit.js" Url="Scripts/material-kit.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\nouislider.min.js" Url="Scripts/nouislider.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

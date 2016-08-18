@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\handsontable\handsontable.min.css" Url="Content/handsontable/handsontable.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\handsontable\handsontable.full.min.css" Url="Content/handsontable/handsontable.full.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\handsontable\handsontable.full.css" Url="Content/handsontable/handsontable.full.css" ReplaceContent="TRUE" />
+    <File Path="Content\handsontable\handsontable.css" Url="Content/handsontable/handsontable.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\demo.css" Url="Content/demo.css" ReplaceContent="TRUE" />
+    <File Path="Content\material-kit.css" Url="Content/material-kit.css" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit.scss" Url="Content/sass/material-kit.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_alerts.scss" Url="Content/sass/material-kit/_alerts.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_buttons.scss" Url="Content/sass/material-kit/_buttons.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_cards.scss" Url="Content/sass/material-kit/_cards.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_carousel.scss" Url="Content/sass/material-kit/_carousel.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_checkboxes.scss" Url="Content/sass/material-kit/_checkboxes.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_colors.scss" Url="Content/sass/material-kit/_colors.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_core.scss" Url="Content/sass/material-kit/_core.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_dialogs.scss" Url="Content/sass/material-kit/_dialogs.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_dividers.scss" Url="Content/sass/material-kit/_dividers.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_dropdown.scss" Url="Content/sass/material-kit/_dropdown.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_example-pages.scss" Url="Content/sass/material-kit/_example-pages.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_footers.scss" Url="Content/sass/material-kit/_footers.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_form.scss" Url="Content/sass/material-kit/_form.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_images.scss" Url="Content/sass/material-kit/_images.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_import-bs-less.scss" Url="Content/sass/material-kit/_import-bs-less.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_import-bs-sass.scss" Url="Content/sass/material-kit/_import-bs-sass.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_inputs-size.scss" Url="Content/sass/material-kit/_inputs-size.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_inputs.scss" Url="Content/sass/material-kit/_inputs.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_labels.scss" Url="Content/sass/material-kit/_labels.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_lists.scss" Url="Content/sass/material-kit/_lists.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_mixins.scss" Url="Content/sass/material-kit/_mixins.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_navbar.scss" Url="Content/sass/material-kit/_navbar.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_pagination.scss" Url="Content/sass/material-kit/_pagination.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_panels.scss" Url="Content/sass/material-kit/_panels.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_pills.scss" Url="Content/sass/material-kit/_pills.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_popups.scss" Url="Content/sass/material-kit/_popups.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_progress.scss" Url="Content/sass/material-kit/_progress.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_radios.scss" Url="Content/sass/material-kit/_radios.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_ripples.scss" Url="Content/sass/material-kit/_ripples.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_sections.scss" Url="Content/sass/material-kit/_sections.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_shadows.scss" Url="Content/sass/material-kit/_shadows.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_tabs.scss" Url="Content/sass/material-kit/_tabs.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_togglebutton.scss" Url="Content/sass/material-kit/_togglebutton.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_typography.scss" Url="Content/sass/material-kit/_typography.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_variables.scss" Url="Content/sass/material-kit/_variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_variables_bootstrap.scss" Url="Content/sass/material-kit/_variables_bootstrap.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\_welljumbo.scss" Url="Content/sass/material-kit/_welljumbo.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\plugins\_plugin-datepicker.scss" Url="Content/sass/material-kit/plugins/_plugin-datepicker.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\plugins\_plugin-dropdownjs.scss" Url="Content/sass/material-kit/plugins/_plugin-dropdownjs.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\plugins\_plugin-nouislider.scss" Url="Content/sass/material-kit/plugins/_plugin-nouislider.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\plugins\_plugin-selectize.scss" Url="Content/sass/material-kit/plugins/_plugin-selectize.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\material-kit\plugins\_plugin-snackbarjs.scss" Url="Content/sass/material-kit/plugins/_plugin-snackbarjs.scss" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

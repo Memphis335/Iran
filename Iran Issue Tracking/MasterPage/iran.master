@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" %>
+
+<%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Register TagPrefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Import Namespace="Microsoft.SharePoint" %>
+<%@ Assembly Name="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>
+<%@ Register TagPrefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+
+<!DOCTYPE html>
+<html lang="<%$Resources:wss,language_value%>" xmlns:o="urn:schemas-microsoft-com:office:office" runat="server" dir="<%$Resources:wss,multipages_direction_dir_value%>" __expr-val-dir="ltr">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Expires" content="0" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <asp:ContentPlaceHolder ID="divHeader" runat="server">
+    </asp:ContentPlaceHolder>
+    <SharePoint:SPShortcutIcon runat="server" IconUrl="../Images/favicon.ico?rev=42" />
+    <title>
+        <asp:ContentPlaceHolder runat="server" ID="siteTitle">
+        </asp:ContentPlaceHolder>
+    </title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-fixed-top navbar-color-on-scroll navbar-transparent" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

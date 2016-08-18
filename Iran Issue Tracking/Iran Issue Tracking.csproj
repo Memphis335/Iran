@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A556657-F8BE-42D0-9AD4-0138767B14AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Iran_Issue_Tracking</RootNamespace>
+    <AssemblyName>Iran Issue Tracking</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{170a2f2d-cc57-41cc-bede-af24ac5c2c52}</AppFeaturePartId>
+    <WspPartId>{44fce670-8450-42b0-91ac-9407e99cf4e5}</WspPartId>
+    <WorkflowPartId>{2c757622-9c6e-43d9-845e-626d151c5a99}</WorkflowPartId>
+    <CspkgPartId>{c4f20c1b-9128-4496-a5ed-60f573df05f3}</CspkgPartId>
+    <SqlPackagePartId>{14ffd7af-b03c-45f0-bd9e-41c8f2d2b7e0}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Content\sass\material-kit.scss" />
+    <None Include="Content\sass\material-kit\plugins\_plugin-datepicker.scss" />
+    <None Include="Content\sass\material-kit\plugins\_plugin-dropdownjs.scss" />
+    <None Include="Content\sass\material-kit\plugins\_plugin-nouislider.scss" />
+    <None Include="Content\sass\material-kit\plugins\_plugin-selectize.scss" />
+    <None Include="Content\sass\material-kit\plugins\_plugin-snackbarjs.scss" />
+    <None Include="Content\sass\material-kit\_alerts.scss" />
+    <None Include="Content\sass\material-kit\_buttons.scss" />
+    <None Include="Content\sass\material-kit\_cards.scss" />
+    <None Include="Content\sass\material-kit\_carousel.scss" />
+    <None Include="Content\sass\material-kit\_checkboxes.scss" />
+    <None Include="Content\sass\material-kit\_colors.scss" />
+    <None Include="Content\sass\material-kit\_core.scss" />
+    <None Include="Content\sass\material-kit\_dialogs.scss" />
+    <None Include="Content\sass\material-kit\_dividers.scss" />
+    <None Include="Content\sass\material-kit\_dropdown.scss" />
+    <None Include="Content\sass\material-kit\_example-pages.scss" />
+    <None Include="Content\sass\material-kit\_footers.scss" />
+    <None Include="Content\sass\material-kit\_form.scss" />
+    <None Include="Content\sass\material-kit\_images.scss" />
+    <None Include="Content\sass\material-kit\_import-bs-less.scss" />
+    <None Include="Content\sass\material-kit\_import-bs-sass.scss" />
+    <None Include="Content\sass\material-kit\_inputs-size.scss" />
+    <None Include="Content\sass\material-kit\_inputs.scss" />
+    <None Include="Content\sass\material-kit\_labels.scss" />
+    <None Include="Content\sass\material-kit\_lists.scss" />
+    <None Include="Content\sass\material-kit\_mixins.scss" />
+    <None Include="Content\sass\material-kit\_navbar.scss" />
+    <None Include="Content\sass\material-kit\_pagination.scss" />
+    <None Include="Content\sass\material-kit\_panels.scss" />
+    <None Include="Content\sass\material-kit\_pills.scss" />
+    <None Include="Content\sass\material-kit\_popups.scss" />
+    <None Include="Content\sass\material-kit\_progress.scss" />
+    <None Include="Content\sass\material-kit\_radios.scss" />
+    <None Include="Content\sass\material-kit\_ripples.scss" />
+    <None Include="Content\sass\material-kit\_sections.scss" />
+    <None Include="Content\sass\material-kit\_shadows.scss" />
+    <None Include="Content\sass\material-kit\_tabs.scss" />
+    <None Include="Content\sass\material-kit\_togglebutton.scss" />
+    <None Include="Content\sass\material-kit\_typography.scss" />
+    <None Include="Content\sass\material-kit\_variables.scss" />
+    <None Include="Content\sass\material-kit\_variables_bootstrap.scss" />
+    <None Include="Content\sass\material-kit\_welljumbo.scss" />
+    <None Include="Images\examples\.DS_Store" />
+    <None Include="Images\faces\.DS_Store" />
+    <None Include="Images\flags\.DS_Store" />
+    <None Include="Images\presentation\.DS_Store" />
+    <None Include="Images\sections\.DS_Store" />
+    <None Include="MasterPage\iran.master" />
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{815d3d01-db84-4de7-a090-492d9d4d1ab8}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\demo.css" />
+    <Content Include="Content\handsontable\handsontable.css" />
+    <Content Include="Content\handsontable\handsontable.full.css" />
+    <Content Include="Content\handsontable\handsontable.full.min.css" />
+    <Content Include="Content\handsontable\handsontable.min.css" />
+    <Content Include="Content\material-kit.css" />
+    <Content Include="Elements.xml" />
+    <Content Include="Images\apple-icon.png" />
+    <Content Include="Images\arrow-left.cur" />
+    <Content Include="Images\arrow-left.png" />
+    <Content Include="Images\arrow-right.cur" />
+    <Content Include="Images\arrow-right.png" />
+    <Content Include="Images\avatar.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg2.jpeg" />
+    <Content Include="Images\bg3.jpeg" />
+    <Content Include="Images\bg4.jpeg" />
+    <Content Include="Images\christian.jpg" />
+    <Content Include="Images\city.jpg" />
+    <Content Include="Images\default-avatar.png" />
+    <Content Include="Images\examples\chris0.jpg" />
+    <Content Include="Images\examples\chris1.jpg" />
+    <Content Include="Images\examples\chris3.jpg" />
+    <Content Include="Images\examples\chris4.jpg" />
+    <Content Include="Images\examples\chris5.jpg" />
+    <Content Include="Images\examples\chris6.jpg" />
+    <Content Include="Images\examples\chris7.jpg" />
+    <Content Include="Images\examples\chris8.jpg" />
+    <Content Include="Images\examples\chris9.jpg" />
+    <Content Include="Images\examples\city.jpg" />
+    <Content Include="Images\favicon.png" />
+    <Content Include="Images\flags\AD.png" />
+    <Content Include="Images\flags\AE.png" />
+    <Content Include="Images\flags\AG.png" />
+    <Content Include="Images\flags\AM.png" />
+    <Content Include="Images\flags\AR.png" />
+    <Content Include="Images\flags\AT.png" />
+    <Content Include="Images\flags\AU.png" />
+    <Content Include="Images\flags\BE.png" />
+    <Content Include="Images\flags\BF.png" />
+    <Content Include="Images\flags\BG.png" />
+    <Content Include="Images\flags\BO.png" />
+    <Content Include="Images\flags\BR.png" />
+    <Content Include="Images\flags\CA.png" />
+    <Content Include="Images\flags\CD.png" />
+    <Content Include="Images\flags\CG.png" />
+    <Content Include="Images\flags\CH.png" />
+    <Content Include="Images\flags\CL.png" />
+    <Content Include="Images\flags\CM.png" />
+    <Content Include="Images\flags\CN.png" />
+    <Content Include="Images\flags\CO.png" />
+    <Content Include="Images\flags\CZ.png" />
+    <Content Include="Images\flags\DE.png" />
+    <Content Include="Images\flags\DJ.png" />
+    <Content Include="Images\flags\DK.png" />
+    <Content Include="Images\flags\DZ.png" />
+    <Content Include="Images\flags\EE.png" />
+    <Content Include="Images\flags\EG.png" />
+    <Content Include="Images\flags\ES.png" />
+    <Content Include="Images\flags\FI.png" />
+    <Content Include="Images\flags\FR.png" />
+    <Content Include="Images\flags\GA.png" />
+    <Content Include="Images\flags\GB.png" />
+    <Content Include="Images\flags\GM.png" />
+    <Content Include="Images\flags\GT.png" />
+    <Content Include="Images\flags\HN.png" />
+    <Content Include="Images\flags\HT.png" />
+    <Content Include="Images\flags\HU.png" />
+    <Content Include="Images\flags\ID.png" />
+    <Content Include="Images\flags\IE.png" />
+    <Content Include="Images\flags\IL.png" />
+    <Content Include="Images\flags\IN.png" />
+    <Content Include="Images\flags\IQ.png" />
+    <Content Include="Images\flags\IR.png" />
+    <Content Include="Images\flags\IT.png" />
+    <Content Include="Images\flags\JM.png" />
+    <Content Include="Images\flags\JO.png" />
+    <Content Include="Images\flags\JP.png" />
+    <Content Include="Images\flags\KG.png" />
+    <Content Include="Images\flags\KN.png" />
+    <Content Include="Images\flags\KP.png" />
+    <Content Include="Images\flags\KR.png" />
+    <Content Include="Images\flags\KW.png" />
+    <Content Include="Images\flags\KZ.png" />
+    <Content Include="Images\flags\LA.png" />
+    <Content Include="Images\flags\LB.png" />
+    <Content Include="Images\flags\LC.png" />
+    <Content Include="Images\flags\LS.png" />
+    <Content Include="Images\flags\LU.png" />
+    <Content Include="Images\flags\LV.png" />
+    <Content Include="Images\flags\MG.png" />
+    <Content Include="Images\flags\MK.png" />
+    <Content Include="Images\flags\ML.png" />
+    <Content Include="Images\flags\MM.png" />
+    <Content Include="Images\flags\MT.png" />
+    <Content Include="Images\flags\MX.png" />
+    <Content Include="Images\flags\NA.png" />
+    <Content Include="Images\flags\NE.png" />
+    <Content Include="Images\flags\NG.png" />
+    <Content Include="Images\flags\NI.png" />
+    <Content Include="Images\flags\NL.png" />
+    <Content Include="Images\flags\NO.png" />
+    <Content Include="Images\flags\OM.png" />
+    <Content Include="Images\flags\PA.png" />
+    <Content Include="Images\flags\PE.png" />
+    <Content Include="Images\flags\PG.png" />
+    <Content Include="Images\flags\PK.png" />
+    <Content Include="Images\flags\PL.png" />
+    <Content Include="Images\flags\PT.png" />
+    <Content Include="Images\flags\PY.png" />
+    <Content Include="Images\flags\QA.png" />
+    <Content Include="Images\flags\RO.png" />
+    <Content Include="Images\flags\RU.png" />
+    <Content Include="Images\flags\RW.png" />
+    <Content Include="Images\flags\SA.png" />
+    <Content Include="Images\flags\SE.png" />
+    <Content Include="Images\flags\SG.png" />
+    <Content Include="Images\flags\SL.png" />
+    <Content Include="Images\flags\SN.png" />
+    <Content Include="Images\flags\SO.png" />
+    <Content Include="Images\flags\SV.png" />
+    <Content Include="Images\flags\TD.png" />
+    <Content Include="Images\flags\TJ.png" />
+    <Content Include="Images\flags\TL.png" />
+    <Content Include="Images\flags\TR.png" />
+    <Content Include="Images\flags\TZ.png" />
+    <Content Include="Images\flags\UA.png" />
+    <Content Include="Images\flags\US.png" />
+    <Content Include="Images\flags\VE.png" />
+    <Content Include="Images\flags\VN.png" />
+    <Content Include="Images\flags\YE.png" />
+    <Content Include="Images\kendall.jpg" />
+    <Content Include="Images\landing.jpg" />
+    <Content Include="Images\loading-bubbles.svg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\marc.jpg" />
+    <Content Include="Images\profile.jpg" />
+    <Content Include="Pages\AdhocReport.aspx" />
+    <Content Include="Pages\ChangeRequest.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61c1fc99-7259-4cf4-adb2-5e5b2067b5d8}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-3.1.0.min.map" />
+    <None Include="Scripts\jquery-3.1.0.slim.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{14ffd7af-b03c-45f0-bd9e-41c8f2d2b7e0}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\NewReport.aspx" />
+    <Content Include="Scripts\bootstrap-datepicker.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\handsontable\handsontable.full.js" />
+    <Content Include="Scripts\handsontable\handsontable.full.min.js" />
+    <Content Include="Scripts\handsontable\handsontable.js" />
+    <Content Include="Scripts\handsontable\handsontable.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\material-kit.js" />
+    <Content Include="Scripts\material.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\nouislider.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f5c3e514-de15-498c-818e-898654e03e09}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c43d10ed-98e6-4ca1-b32b-a669ffc75b3f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{66e8caaf-1bee-4f2c-a303-5f6b3596b555}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{b464c9b7-5470-47b8-82f8-30978af1b58f}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

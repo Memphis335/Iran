@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="66e8caaf-1bee-4f2c-a303-5f6b3596b555" 
+        solutionId="66e8caaf-1bee-4f2c-a303-5f6b3596b555" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Iran_Issue_Tracking"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="b464c9b7-5470-47b8-82f8-30978af1b58f" />
+  </features>
+</package>
